@@ -26,7 +26,7 @@ const WhatIDo = () => {
   }, []);
 
   return (
-    <div className="whatIDO">
+    <section className="whatIDO">
       <div className="what-box">
         <h2 className="title">
           W<span className="hat-h2">HAT</span>
@@ -91,9 +91,9 @@ const WhatIDo = () => {
               <h3>BUILD</h3>
               <h4>Description</h4>
               <p>
-                Backend systems, APIs, and data pipelines at scale. From
-                high-throughput Go services to PySpark ETL and cloud
-                infrastructure.
+                Scalable microservices, APIs, and data pipelines at scale. From
+                high-throughput Go services to PySpark ETL, cloud
+                infrastructure, and CI/CD pipelines.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -132,8 +132,9 @@ const WhatIDo = () => {
               <h3>SYSTEMS & DATA</h3>
               <h4>Description</h4>
               <p>
-                Distributed systems, observability, and ML pipelines. Secure
-                auth, incident automation, and cost-efficient data engineering.
+                Event-driven architecture, real-time observability, and ML
+                pipelines. Secure auth, incident automation, and cost-efficient
+                data engineering at enterprise scale.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -151,7 +152,7 @@ const WhatIDo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

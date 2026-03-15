@@ -3,7 +3,7 @@ import "./styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-section section-container" id="contact">
+    <footer className="contact-section section-container" id="contact">
       <div className="contact-container">
         <h3>Contact</h3>
         <div className="contact-flex">
@@ -52,17 +52,17 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-box">
-            <h2>
+            <p className="footer-tagline">
               Made with ❤️ by <br />
               <span>Satyaraj Reddy Nandi</span>
-            </h2>
+            </p>
             <h5>
               <MdCopyright /> {new Date().getFullYear()}
             </h5>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

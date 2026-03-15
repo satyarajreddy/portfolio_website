@@ -1,3 +1,5 @@
+"use client";
+
 import { lazy, PropsWithChildren, Suspense, useEffect, useState } from "react";
 import About from "./About";
 import Career from "./Career";
@@ -37,7 +39,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
       {isDesktopView && children}
       <div id="smooth-wrapper">
         <div id="smooth-content">
-          <div className="container-main">
+          <main className="container-main">
             <Landing>{!isDesktopView && children}</Landing>
             <About />
             <WhatIDo />
@@ -50,7 +52,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
               </Suspense>
             )}
             <Contact />
-          </div>
+          </main>
         </div>
       </div>
     </div>

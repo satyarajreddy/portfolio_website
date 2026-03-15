@@ -20,6 +20,7 @@ const projects = [
     sourceUrl: "https://github.com/satyarajreddy/structbench",
     image: "/structbench.png",
     fallbackImage: structbenchPreview,
+    altText: "StructBench - LLM Benchmarking tool built with Next.js and TypeScript",
   },
   {
     number: "02",
@@ -33,6 +34,7 @@ const projects = [
       "https://github.com/satyarajreddy/geosignal-terminal/tree/main/geosignal-deploy",
     image: "/geosignal.png",
     fallbackImage: geosignalPreview,
+    altText: "GeoSignal Terminal - Real-time geopolitical market intelligence platform for Indian equities",
   },
   {
     number: "03",
@@ -44,6 +46,7 @@ const projects = [
     liveUrl: undefined,
     sourceUrl: "https://github.com/satyarajreddy/Graduate-Admissions-Analysis",
     image: "/graduate_admissions.png",
+    altText: "Graduate Admissions Analysis using Python, Pandas, and Scikit-Learn",
   },
   {
     number: "04",
@@ -56,12 +59,13 @@ const projects = [
     sourceUrl:
       "https://github.com/satyarajreddy/Sparkify-Churn-Prediction-using-PySpark",
     image: "/sparkify_churn.png",
+    altText: "Sparkify Churn Prediction using PySpark and Machine Learning",
   },
 ];
 
 const Work = () => {
   return (
-    <div className="work-section" id="work">
+    <section className="work-section" id="work">
       <div className="work-container section-container">
         <h2 className="work-section-title">
           MY WORK<span className="work-title-dot">.</span>
@@ -77,7 +81,7 @@ const Work = () => {
                   <WorkImage
                     image={project.image}
                     fallbackImage={"fallbackImage" in project ? (project as { fallbackImage: string }).fallbackImage : undefined}
-                    alt={project.name}
+                    alt={(project as { altText?: string }).altText ?? project.name}
                     link={project.liveUrl ?? project.sourceUrl}
                     fallbackTitle={project.name}
                   />
@@ -122,7 +126,7 @@ const Work = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

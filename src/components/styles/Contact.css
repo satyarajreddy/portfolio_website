@@ -30,12 +30,14 @@ a.contact-social {
   font-size: 25px;
   border-bottom: 1px solid #ccc;
 }
-.contact-box h2 {
+.contact-box h2,
+.contact-box .footer-tagline {
   font-weight: 400;
   font-size: 23px;
   margin: 0;
 }
-.contact-box h2 > span {
+.contact-box h2 > span,
+.contact-box .footer-tagline > span {
   color: var(--accentColor);
 }
 .contact-box h5 {
@@ -50,7 +52,8 @@ a.contact-social {
   .contact-section h3 {
     font-size: 50px;
   }
-  .contact-box h2 {
+  .contact-box h2,
+  .contact-box .footer-tagline {
     font-size: 20px;
   }
   a.contact-social {
@@ -61,7 +64,8 @@ a.contact-social {
   .contact-section h3 {
     font-size: 40px;
   }
-  .contact-box h2 {
+  .contact-box h2,
+  .contact-box .footer-tagline {
     font-size: 18px;
   }
   a.contact-social {

@@ -61,7 +61,7 @@ const careers: CareerEntry[] = [
 
 const Career = () => {
   return (
-    <div className="career-section section-container" id="career">
+    <section className="career-section section-container" id="career">
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -79,7 +79,7 @@ const Career = () => {
                   <h5 className="career-company">
                     {job.companyIconUrl ? (
                       <span className="career-company-icon career-company-icon-img" aria-hidden>
-                        <img src={job.companyIconUrl} alt="" />
+                        <img src={job.companyIconUrl} alt={`${job.company} logo`} />
                       </span>
                     ) : job.CompanyIcon ? (
                       <span className="career-company-icon" aria-hidden>
@@ -100,7 +100,7 @@ const Career = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
