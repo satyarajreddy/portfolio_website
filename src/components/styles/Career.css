@@ -102,7 +102,6 @@
   min-height: 36px;
   flex-shrink: 0;
   color: var(--accentColor);
-  background: rgba(194, 164, 255, 0.12);
   border-radius: 8px;
   padding: 6px;
 }
@@ -113,9 +112,9 @@
 }
 
 .career-company-icon-img {
-  padding: 4px;
-  background: #fff;
+  padding: 6px;
   border-radius: 6px;
+  background: rgba(255, 255, 255, 0.85); /* slight white backing for dark AWS text readability */
 }
 
 .career-company-icon-img img {

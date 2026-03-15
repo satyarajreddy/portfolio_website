@@ -17,7 +17,7 @@ const careers: CareerEntry[] = [
     role: "Software Development Engineer II",
     company: "Microsoft",
     period: "Sep 2025 – Dec 2025",
-    CompanyIcon: FaMicrosoft,
+    companyIconUrl: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
     points: [
       "Secure Future Initiative (SFI) controls across Entra (AAD) Reporting for SQL, Cosmos DB, Storage, Key Vault; zero production regressions.",
       "Multi-region infrastructure (Blu, Germany, Singapore); zero Sev2+ incidents.",
@@ -28,7 +28,7 @@ const careers: CareerEntry[] = [
     role: "Software Development Engineer",
     company: "Amazon Web Services",
     period: "Dec 2022 – June 2025",
-    CompanyIcon: FaAws,
+    companyIconUrl: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
     points: [
       "High-performance RESTful Go API with IAM & DynamoDB; sub-100ms at 300K req/min.",
       "CloudWatch dashboards & alarms for 15+ microservices; ~40% faster incident detection.",
