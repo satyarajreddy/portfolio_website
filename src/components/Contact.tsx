@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Made with ❤️️ <br /> by{" "}
+              Made with ❤️ by <br />
               <span>Satyaraj Reddy Nandi</span>
             </h2>
             <h5>
