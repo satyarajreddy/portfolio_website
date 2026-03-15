@@ -42,7 +42,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://satyarajnandi.lovable.app"
+              href="https://satyaraj.dev/"
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="disable"
