@@ -46,11 +46,20 @@ export const metadata: Metadata = {
     siteName: "Satyaraj Reddy Nandi",
     title,
     description,
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1024,
+        height: 1024,
+        alt: "Satyaraj Reddy Nandi - Software Development Engineer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
+    images: ["/og-image.png"],
   },
 };
 
